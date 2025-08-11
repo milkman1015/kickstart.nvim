@@ -14,6 +14,9 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    window = {
+      width = 30, -- set sidebar width
+    },
     filesystem = {
       window = {
         mappings = {
