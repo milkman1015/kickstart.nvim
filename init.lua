@@ -166,6 +166,14 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- configure tabs to be 4 spaces wide
+vim.o.shiftwidth = 4
+vim.o.smarttab = true
+vim.o.smartindent = true
+vim.o.expandtab = true
+vim.o.tabstop = 8
+vim.o.softtabstop = 0
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
