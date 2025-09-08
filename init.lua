@@ -174,6 +174,9 @@ vim.o.expandtab = true
 vim.o.tabstop = 8
 vim.o.softtabstop = 0
 
+-- set the cursor in insert mode to be the block
+vim.o.guicursor = 'n-v-c-i-ci-sm:block,ve:ver25,r-cr-o:hor20,t:block-blinkon500-blinkoff500-TermCursor'
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
